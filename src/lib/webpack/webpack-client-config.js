@@ -81,7 +81,7 @@ function clientConfig(env) {
 }
 
 function isProd(config) {
-	let limit = 200 * 1000; // 200kb
+	let limit = 10000 * 1000; // 10mB
 
 	return {
 		performance: {
