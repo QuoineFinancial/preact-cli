@@ -46,7 +46,9 @@ export default function (env) {
 			],
 			extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.less', '.scss', '.sass', '.styl', '.css'],
 			alias: {
-				'style': source('style'),
+				'assets': source('assets'),
+				'components': source('components'),
+				'styles': source('styles'),
 				'preact-cli-entrypoint': source('index.js'),
 				'preact$': resolveDep(isProd ? 'preact/dist/preact.min.js' : 'preact', cwd),
 				// preact-compat aliases for supporting React dependencies:
