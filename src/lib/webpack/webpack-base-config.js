@@ -50,6 +50,7 @@ export default function (env) {
 				'components': source('components'),
 				'styles': source('styles'),
 				'translate': source('translate'),
+				'utils': source('utils'),
 				'preact-cli-entrypoint': source('index.js'),
 				'preact$': resolveDep(isProd ? 'preact/dist/preact.min.js' : 'preact', cwd),
 				// preact-compat aliases for supporting React dependencies:
