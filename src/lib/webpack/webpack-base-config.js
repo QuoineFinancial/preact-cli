@@ -52,6 +52,7 @@ export default function (env) {
 				'translate': source('translate'),
 				'utils': source('utils'),
 				'constants': source('constants'),
+				'resources': source('resources'),
 				'preact-cli-entrypoint': source('index.js'),
 				'preact$': resolveDep(isProd ? 'preact/dist/preact.min.js' : 'preact', cwd),
 				// preact-compat aliases for supporting React dependencies:
