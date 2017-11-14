@@ -46,12 +46,12 @@ function clientConfig(env) {
 							let relative = filename.replace(src, '');
 							let isRoute = filename.indexOf('/routes/') >= 0;
 
-							return isRoute ? 'route-' + relative.replace(/(^\/(routes|components\/(routes|async))\/|(\/index)?\.js$)/g, '') : false;
+							return isRoute ? 'route-' + relative.replace(/(^\/(routes|components|translate|utils|constants\/(routes|async))\/|(\/index)?\.js$)/g, '') : false;
 						},
 						formatName(filename) {
 							let relative = filename.replace(source('.'), '');
 							// strip out context dir & any file/ext suffix
-							return relative.replace(/(^\/(routes|components\/(routes|async))\/|(\/index)?\.js$)/g, '');
+							return relative.replace(/(^\/(routes|components|translate|utils|constants\/(routes|async))\/|(\/index)?\.js$)/g, '');
 						}
 					}
 				}
