@@ -1,4 +1,4 @@
-import fetch from 'whatwg-fetch';
+import 'whatwg-fetch';
 import { bold, magenta } from 'chalk';
 import { error, info } from '../util';
 import asyncCommand from '../lib/async-command';
