@@ -115,7 +115,6 @@
     "devcert-san": "^0.3.3",
     "ejs-loader": "^0.3.0",
     "extract-text-webpack-plugin": "^3.0.0",
-    "fetch-headers": "^2.0.0",
     "file-loader": "^0.11.1",
     "fs.promised": "^3.0.0",
     "get-port": "^3.1.0",
@@ -125,7 +124,6 @@
     "html-webpack-plugin": "^2.28.0",
     "inquirer": "^3.2.0",
     "ip": "^1.1.5",
-    "isomorphic-unfetch": "^2.0.0",
     "json-loader": "^0.5.4",
     "loader-utils": "^1.1.0",
     "log-symbols": "^2.0.0",
@@ -157,6 +155,7 @@
     "webpack-dev-server": "^2.8.2",
     "webpack-merge": "^4.1.0",
     "webpack-plugin-replace": "^1.1.1",
+    "whatwg-fetch": "^2.0.3",
     "which": "^1.2.14",
     "yargs": "^8.0.1"
   }
